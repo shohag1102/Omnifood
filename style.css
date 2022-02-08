@@ -164,17 +164,84 @@ body,html{
 /* -----work section start ------*/
 
 .works{
-    height: 670px;
+    height: 650px;
     background-color: #F4F4F4;
+    position: relative;
 }
 .works_container{
     width: 910px;
-    height: 670px;
-    background-color: bisque;
-    /* margin: 50px auto; */
+    height: 650px;
+    margin: 0px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 .works_container  h1{
+    margin-top: 50px;
+    font-size: 35px;
     font-weight: 300;
+    text-align: center;
+}
+.works_container h1::after{
+    content: "";
+        display: block;
+        width: 100px;
+        height: 3px;
+        background: #E67E22;
+        margin: 20px auto;
+}
+.works_container .left img{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.works_container .left{
+    width: 30%;
+    float: left;
+}
+.works_container .right{
+    margin-top: 30px;
+    width: 70%;
+    float: right;
+}
+.works_container .right ul li div{
+    width: 55px;
+    height: 55px;
+    padding-top: 5px;
+    font-size: 150%;
+    background-color: transparent;
+    border: orange;
+    border: 2px solid orange;
+    border-radius: 50%;
+    color: orange;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+.works_container .right ul li p{
+    display: inline-block;
+    width: 80%;
+    line-height: 18px;
 }
 
+.works_container .right img{
+    width: 25%;
+    margin-right: 10px;
+}
+.works_container .right ul{
+    list-style-type: none;
+}
+.works_container .right ul li{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px;
+}
 /* -----work section end ------*/
+
+
+/* -------cities section start--------- */
+
+
+
+
+/* -------cities section end--------- */
